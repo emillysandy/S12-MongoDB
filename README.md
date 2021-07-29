@@ -60,7 +60,8 @@ db.alunas.insertMany([
 
 ### Atualizando atividade 9 da aluna Lady Gaga
 
-`
+
+```
 db.getCollection('alunas').update(
     { " nome " : "Gaga" },
     { $set:
@@ -69,7 +70,8 @@ db.getCollection('alunas').update(
         }
     }
 );
-`
+```
+
 ### Deletando atividades 11 que não foram entrgues
 
 `db.getCollection('alunas').remove({ atividade 11 : { $ne: "ENTREGUE"}})`
