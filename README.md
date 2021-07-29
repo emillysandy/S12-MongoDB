@@ -11,7 +11,7 @@ Atividade de manipulação de banco de dados com MongoDB.
 `db.createCollections('alunas')`
 
 ### Inserindo documentos na collection
-`
+```
 db.alunas.insertMany([
   "Beyoncé": {
     " id " : " 1 " ,
@@ -44,7 +44,7 @@ db.alunas.insertMany([
    }
 )]
 
-`
+```
 
 ### Consultando todas as alunas que entregaram a atividade 9
 
